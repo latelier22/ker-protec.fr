@@ -1,7 +1,7 @@
 export const site = {
-  title: "KER PROTECH",
-  description: "KER PROTECH - Olivier MIQUEL- 07 71 84 91 07",
-  societe: "KER PROTECH",
+  title: "KER PROTEC",
+  description: "KER PROTEC - Olivier MIQUEL- 07 71 84 91 07",
+  societe: "KER PROTEC",
   SIRET: "53478675100022",
   contact: "Olivier GUREME",
   telephone: "0780698451",
@@ -9,8 +9,8 @@ export const site = {
   codePostal: "56880",
   ville: "PLOEREN",
   email: "kerprotec56@gmail.com",
-  logo: { url: "images/logo-barre-du-haut.png", alt: "logo Ker protech" },
-  Logo: { url: "images/logo-banniere.png", alt: "logo Ker protech" },
+  logo: { url: "images/logo-barre-du-haut.png", alt: "logo Ker PROTEC" },
+  Logo: { url: "images/logo-banniere.png", alt: "logo Ker PROTEC" },
 };
 
 export const menuItems = [
@@ -23,6 +23,69 @@ export const menuItems = [
   { label: "Nos réalisations", route: "/realisations" },
   { label: "Contact", route: "/contact" },
 ];
+
+
+
+export const cards = [
+  {
+    title: "PEINTURE EXTERIEURE",
+    text: "",
+    button: "Détail",
+    buttonColor: "bg-gold-500",
+    link: "/peinture-exterieure",
+    url: "peinture-mur-exterieur.png",
+    alt: "",
+  },
+
+  {
+    title: "PEINTURE INTERIEURE",
+    text: "",
+    button: "Détail",
+    buttonColor: "bg-gold-500",
+    link: "/peinture-interieure",
+    url: "peinture-mur-interieur.png",
+    alt: "",
+  },
+
+  {
+    title: "TRAVAUX DIVERS",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/travaux-divers",
+    url: "menu-travaux-divers.png",
+    alt: "",
+  },
+
+  {
+    title: "NOS REALISATIONS",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/travaux-divers",
+    url: "menu-peinture-exterieure.png",
+    alt: "",
+  },
+
+  
+];
+
+
+export const sections = [
+  {
+    title: "Qui sommes-nous?",
+    body : "KER PROTEC est spécialisé dans les travaux de peinture extérieure, le ravalement et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à ker protec et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques."
+  },
+  {
+    title: " NOS SAVOIRS FAIRE",
+    body : <ul className="list-disc pl-4">
+      <li></li>
+      <li></li>
+      <li></li>
+      </ul>
+  },
+]
+
 
 export const listesActions = [
   {
@@ -87,7 +150,7 @@ export const Pages = {
     cards: [],
   },
   "peinture-exterieure": {
-    title: "Nettoyage",
+    title: "Peinture extérieure",
     description: "",
     photos: [
       { url: "reparation-1.png", alt: "gallery" },
@@ -118,7 +181,7 @@ export const Pages = {
     cards: [],
   },
   "peinture-interieure": {
-    title: "Peinture",
+    title: "Peinture intérieure",
     description: "",
     photos: [
       { url: "peinture-1.png", alt: "gallery" },

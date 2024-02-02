@@ -25,18 +25,17 @@ const MyPage = ({ params }) => {
   }
   return (
     <RootLayout pageTitle={page.title} pageDescription={page.description}>
-      <h1>{page.title}</h1>
 
       <Navbar />
 
-      <HeaderSimple photos={page.photos} />
+      <HeaderSimple photos={page.photos} title={page.title}/>
 
       {page.sections.map((section, index) => (
         <Section key={index} section={section} />
       ))}
       {/* <Pictos /> */}
 
-      <div className="bg-white">
+      <div className="">
         <Cards cards={page.cards}  />
       </div>
 

@@ -5,7 +5,7 @@ const Section = ({title}) => {
      
        
   
-  <section className="p-4 bg-gold-800">
+  <section className="p-4 bg-gradient-to-r from-gold-800 via-gold-700 to-gold-800">
   <h2 className="text-4xl text-black text-center font-bold ">
    {title}
   </h2>

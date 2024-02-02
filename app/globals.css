@@ -3,7 +3,7 @@
 
 @layer base {
   html {
-    @apply text-[#4f4f4f];
+    /* @apply text-[#4f4f4f]; */
     @apply bg-white;
     @apply flex-col;
   }
