@@ -45,29 +45,6 @@ export const cards = [
     url: "peinture-mur-interieur.png",
     alt: "",
   },
-
-  {
-    title: "TRAVAUX DIVERS",
-    text: "",
-    button: "",
-    buttonColor: "bg-gold-500",
-    link: "/travaux-divers",
-    url: "menu-travaux-divers.png",
-    alt: "",
-  },
-
-  {
-    title: "NOS REALISATIONS",
-    text: "",
-    button: "",
-    buttonColor: "bg-gold-500",
-    link: "/travaux-divers",
-    url: "menu-peinture-exterieure.png",
-    alt: "",
-  },
-];
-
-export const cards2 = [
   {
     title: "PEINTURES ET NUANCIERS",
     text: "",
@@ -77,6 +54,20 @@ export const cards2 = [
     url: "peinture-nuancier-4.png",
     alt: "",
   },
+
+  {
+    title: "NOS REALISATIONS",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/realisations",
+    url: "menu-peinture-exterieure.png",
+    alt: "",
+  },
+];
+
+export const cards2 = [
+  
 
   {
     title: "ENTRETIEN",
