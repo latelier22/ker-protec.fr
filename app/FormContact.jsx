@@ -49,7 +49,7 @@ const FormContact = () => {
 
   return (
     <>
-      <div style={{ textAlign: "center" }}>
+      <div className ="pt-32" style={{ textAlign: "center" }}>
         <h1>Contact</h1>
 
         {/* Formulaire */}
@@ -65,11 +65,11 @@ const FormContact = () => {
           <div style={{ backgroundColor: "#f5f5f5", padding: "30px", borderRadius: "5px", textAlign: "left" }}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "15px" }}>
               <div style={{ margin: 0 }}>
-                <label htmlFor="prenom" className="label">
+                <label htmlFor="prenom" className="label text-black">
                   Prénom
                 </label>
                 <input
-                  className="input"
+                  className="input border-2 border-neutral-500"
                   placeholder="Prénom"
                   id="prenom"
                   {...register("prenom", { required: true })}
@@ -79,11 +79,11 @@ const FormContact = () => {
                 )}
               </div>
               <div>
-                <label htmlFor="nom" className="label">
+                <label htmlFor="nom" className="label text-black">
                   Nom
                 </label>
                 <input
-                  className="input"
+                  className="input border-2 border-neutral-500"
                   placeholder="Nom"
                   id="nom"
                   {...register("nom", { required: true })}
@@ -93,12 +93,12 @@ const FormContact = () => {
                 )}
               </div>
             </div>
-            <div style={{ marginTop: "15px" }}>
-              <label htmlFor="email" className="label">
+            <div  className="flex  justify-between" style={{ marginTop: "15px" }}>
+              <label htmlFor="email" className="label text-black">
                 Adresse email
               </label>
               <input
-                className="input"
+                className="input w-2/3 border-2 border-neutral-500 bg-sky-100"
                 placeholder="Adresse email"
                 id="email"
                 {...register("email", { required: true })}
@@ -118,14 +118,14 @@ const FormContact = () => {
               marginTop: "15px",
             }}
           >
-            <div>
-              <label htmlFor="contenu" className="label">
+            <div className="flex flex-col items-center justify-center">
+              <label htmlFor="contenu" className="label text-black ">
                 Contenu du message
               </label>
               <textarea
-                className="input"
+                className="input w-full border-2 border-neutral-500"
                 rows="9"
-                placeholder="Bonjour..."
+                placeholder="Votre message..."
                 {...register("contenu", { required: true })}
               ></textarea>
               {errors.contenu && (
