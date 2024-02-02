@@ -17,14 +17,13 @@ export const menuItems = [
   { label: "Accueil", route: "/" },
   { label: "Peinture extérieure", route: "/peinture-exterieure" },
   { label: "Peinture intérieure", route: "/peinture-interieure" },
+  { label: "Peintures & Nuanciers", route: "/peinture-nuancier" },
   { label: "Entretien", route: "/entretien" },
   { label: "Nettoyage", route: "/nettoyage" },
-  { label: "Peintures & Nuanciers", route: "/peinture-nuancier" },
+  { label: "ravalement", route: "/ravalement" },
   { label: "Nos réalisations", route: "/realisations" },
   { label: "Contact", route: "/contact" },
 ];
-
-
 
 export const cards = [
   {
@@ -66,26 +65,66 @@ export const cards = [
     url: "menu-peinture-exterieure.png",
     alt: "",
   },
-
-  
 ];
 
+export const cards2 = [
+  {
+    title: "PEINTURES ET NUANCIERS",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/peinture-nuancier",
+    url: "peinture-nuancier-4.png",
+    alt: "",
+  },
+
+  {
+    title: "ENTRETIEN",
+    text: "",
+    button: "Détail",
+    buttonColor: "bg-gold-500",
+    link: "/entretien",
+    url: "realisations-15.jpeg",
+    alt: "",
+  },
+
+  {
+    title: "NETTOYAGE",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/nettoyage",
+    url: "realisations-13.jpeg",
+    alt: "",
+  },
+
+  {
+    title: "ravalement",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/ravalement",
+    url: "realisations-3.jpeg",
+    alt: "",
+  },
+];
 
 export const sections = [
   {
     title: "Qui sommes-nous?",
-    body : "KER PROTEC est spécialisé dans les travaux de peinture extérieure, le ravalement et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à ker protec et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques."
+    body: "KER PROTEC est spécialisé dans les travaux de peinture extérieure, le ravalement et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à ker protec et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
   },
   {
     title: " NOS SAVOIRS FAIRE",
-    body : <ul className="list-disc pl-4">
-      <li></li>
-      <li></li>
-      <li></li>
+    body: (
+      <ul className="list-disc pl-4">
+        <li>Peinture extérieure</li>
+        <li>Peinture intérieure</li>
+        <li></li>
       </ul>
+    ),
   },
-]
-
+];
 
 export const listesActions = [
   {
@@ -184,10 +223,18 @@ export const Pages = {
     title: "Peinture intérieure",
     description: "",
     photos: [
-      { url: "peinture-1.png", alt: "gallery" },
-      { url: "peinture-2.png", alt: "gallery" },
-      { url: "peinture-3.png", alt: "gallery" },
-      { url: "peinture-4.png", alt: "gallery" },
+      { url: "chantier-01-1.jpeg", alt: "" },
+      { url: "chantier-01-2.jpeg", alt: "" },
+      { url: "chantier-01-3.jpeg", alt: "" },
+      { url: "chantier-01-4.jpeg", alt: "" },
+      { url: "chantier-01-5.jpeg", alt: "" },
+      { url: "chantier-01-6.jpeg", alt: "" },
+      { url: "chantier-01-7.jpeg", alt: "" },
+      { url: "chantier-01-8.jpeg", alt: "" },
+      { url: "chantier-01-9.jpeg", alt: "" },
+      { url: "chantier-01-10.jpeg", alt: "" },
+      { url: "chantier-01-11.jpeg", alt: "" },
+      { url: "chantier-01-12.jpeg", alt: "" },
     ],
     sections: [
       {
@@ -209,11 +256,29 @@ export const Pages = {
         title: "PEINTURE DES MURS, SOLS ET PLAFONDS :",
         body: (
           <ul className="list-disc pl-4">
-            <li>L’intégralité des travaux de peinture par nos équipes: peinture des murs, sols et plafonds</li>
-<li>Les peintures professionnelles sont particulièrement performantes pour couvrir murs et plafonds, mais aussi vos sols. Présentant une extrême résistance chimique et mécanique, il est possible de repeindre votre parquet, votre escalier, votre carrelage ou votre sol en béton</li>
-<li>Ces peintures adaptées résistent aux allées et venues de toute la maisonnée.</li>
-<li>Structurer l&apos;espace grâce à la peinture décorative</li>
-<li>Pour affirmer le caractère d’une pièce, optez pour une couleur forte sur un seul pan de murs. Le choix d’une couleur claire agrandira la pièce. Peindre un plafond d’une couleur sombre l&apos;abaissera visuellement ; appliquer la même couleur aux murs réduira l’espace.</li>
+            <li>
+              L’intégralité des travaux de peinture par nos équipes: peinture
+              des murs, sols et plafonds
+            </li>
+            <li>
+              Les peintures professionnelles sont particulièrement performantes
+              pour couvrir murs et plafonds, mais aussi vos sols. Présentant une
+              extrême résistance chimique et mécanique, il est possible de
+              repeindre votre parquet, votre escalier, votre carrelage ou votre
+              sol en béton
+            </li>
+            <li>
+              Ces peintures adaptées résistent aux allées et venues de toute la
+              maisonnée.
+            </li>
+            <li>Structurer l&apos;espace grâce à la peinture décorative</li>
+            <li>
+              Pour affirmer le caractère d’une pièce, optez pour une couleur
+              forte sur un seul pan de murs. Le choix d’une couleur claire
+              agrandira la pièce. Peindre un plafond d’une couleur sombre
+              l&apos;abaissera visuellement ; appliquer la même couleur aux murs
+              réduira l’espace.
+            </li>
           </ul>
         ),
       },
@@ -225,19 +290,53 @@ export const Pages = {
     title: "Peintures & nuanciers",
     description: "",
     photos: [
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
+      { url: "peinture-nuancier-1.png", alt: "peinture et nuancier" },
+      { url: "peinture-nuancier-2.png", alt: "peinture et nuancier" },
+      { url: "peinture-nuancier-3.png", alt: "peinture et nuancier" },
+      { url: "peinture-nuancier-4.png", alt: "peinture et nuancier" },
     ],
     sections: [
       {
-        title: "NOS SAVOIR FAIRE :",
+        title: "LA COULEUR:",
         body: (
           <ul className="list-disc pl-4">
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              La couleur est un concept universel qui ne se limite pas à une
+              représentativité de teintes.{" "}
+            </li>
+
+            <li>
+              Elle est l’élément créatif qui assure le lien entre décoration et
+              émotion, elle fait écho à la sensibilité de chacun, à son histoire
+              et est le reflet de notre personnalité et de nos envies éphémères.{" "}
+            </li>
+            <li>
+              Chaque teinte évoque de manière intime un reflet de notre
+              personnalité ou de notre vie.
+            </li>
+          </ul>
+        ),
+      },
+
+      {
+        title: "LES NUANCIERS:",
+        body: (
+          <ul className="list-disc pl-4">
+            <li>
+              Ces palettes de teintes sont l’aboutissement du travail d’experts
+              de la couleur alliant style, modernisme et authenticité.
+            </li>
+            <li>
+              Cette offre de teintes utilisables en intérieur et en extérieur
+              est scindée en:32 teintes Lumières où douceur rime avec précision.
+              1288 teintes Iconiques déclinées de la plus claire à la plus
+              foncée permettant d’offrir une vision subtile de chaque couleur
+              réalisable.
+            </li>
+            <li>
+              Chaque teinte est identifiée via une référence unique favorisant
+              ainsi la facilité de lecture de notre offre couleur
+            </li>
           </ul>
         ),
       },
@@ -245,7 +344,7 @@ export const Pages = {
     cards: [],
   },
   nettoyage: {
-    title: "Nettoyage",
+    title: "NETTOYAGE",
     description: "",
     photos: [
       { url: "", alt: "" },
@@ -271,10 +370,35 @@ export const Pages = {
     title: "Nos réalisations",
     description: "",
     photos: [
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
+      
+      { url: "chantier-01-1.jpeg", alt: "" },
+      { url: "chantier-01-2.jpeg", alt: "" },
+      { url: "chantier-01-3.jpeg", alt: "" },
+      { url: "chantier-01-4.jpeg", alt: "" },
+      { url: "chantier-01-5.jpeg", alt: "" },
+      { url: "chantier-01-6.jpeg", alt: "" },
+      { url: "chantier-01-7.jpeg", alt: "" },
+      { url: "chantier-01-8.jpeg", alt: "" },
+      { url: "chantier-01-9.jpeg", alt: "" },
+      { url: "chantier-01-10.jpeg", alt: "" },
+      { url: "chantier-01-11.jpeg", alt: "" },
+      { url: "chantier-01-12.jpeg", alt: "" },
+      { url: "realisations-1.jpeg", alt: "" },
+      { url: "realisations-2.jpeg", alt: "" },
+      { url: "realisations-3.jpeg", alt: "" },
+      { url: "realisations-4.jpeg", alt: "" },
+      { url: "realisations-5.jpeg", alt: "" },
+      { url: "realisations-6.jpeg", alt: "" },
+      { url: "realisations-7.jpeg", alt: "" },
+      { url: "realisations-8.jpeg", alt: "" },
+      { url: "realisations-9.jpeg", alt: "" },
+      { url: "realisations-10.jpeg", alt: "" },
+      { url: "realisations-11.jpeg", alt: "" },
+      { url: "realisations-12.jpeg", alt: "" },
+      { url: "realisations-13.jpeg", alt: "" },
+      { url: "realisations-14.jpeg", alt: "" },
+      { url: "realisations-15.jpeg", alt: "" },
+      { url: "realisations-16.jpeg", alt: "" },
     ],
     sections: [
       {
@@ -284,6 +408,30 @@ export const Pages = {
             <li></li>
             <li></li>
             <li></li>
+          </ul>
+        ),
+      },
+    ],
+    cards: [],
+  },
+  ravalement: {
+    title: "Ravalements",
+    description: "",
+    photos: [
+      { url: "", alt: "" },
+      { url: "", alt: "" },
+      { url: "", alt: "" },
+      { url: "", alt: "" },
+    ],
+    sections: [
+      {
+        title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
+        body: (
+          <ul className="list-disc pl-4">
+            <li>La préparation du chantier</li>
+            <li>Le nettoyage ou le décapage de la façade</li>
+            <li>La réparation et le traitement des murs</li>
+            <li>La protection et/ou l’embellissement.</li>
           </ul>
         ),
       },

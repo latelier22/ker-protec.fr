@@ -7,6 +7,7 @@ import RootLayout from "../layout";
 import HeaderSimple from "../headerSimple";
 import Section from "../Section";
 import Pictos from "../Pictos";
+import ImagesBar from "../ImagesBar";
 import Cards from "../Cards";
 
 import { Pages } from "../site";
@@ -29,6 +30,8 @@ const MyPage = ({ params }) => {
       <Navbar />
 
       <HeaderSimple photos={page.photos} title={page.title}/>
+
+      <ImagesBar photos={page.photos}/>
 
       {page.sections.map((section, index) => (
         <Section key={index} section={section} />
