@@ -298,16 +298,16 @@ export const Pages = {
           <>
             <p>
               {" "}
-              Le toit est la partie d'une maison la plus exposée aux
+              Le toit est la partie d&apos;une maison la plus exposée aux
               intempéries. La pluie, le soleil, et le vent peuvent avoir un
-              impact sur lui. L'air ambiant transporte une quantité importante
-              d'organismes vivants. Au nombre de ceux-ci se trouvent la mousse
-              et les lichens qui peuvent se poser sur n'importe quel support.
-              Sous l'action de l'eau pluviale, ces indésirables prennent
-              d'assaut les toitures et y prolifèrent. Ils réussissent à vite se
-              répandre sur les couvertures parce qu'elles sont faites avec des
+              impact sur lui. L&apos;air ambiant transporte une quantité importante
+              d&apos;organismes vivants. Au nombre de ceux-ci se trouvent la mousse
+              et les lichens qui peuvent se poser sur n&apos;importe quel support.
+              Sous l&apos;action de l&apos;eau pluviale, ces indésirables prennent
+              d&apos;assaut les toitures et y prolifèrent. Ils réussissent à vite se
+              répandre sur les couvertures parce qu&apos;elles sont faites avec des
               matériaux qui sont pour la plupart poreux. Les lichens et les
-              mousses y trouvent donc de l'humidité et se développent.
+              mousses y trouvent donc de l&apos;humidité et se développent.
             </p>
           </>
         ),
@@ -319,14 +319,14 @@ export const Pages = {
           <>
             <p>
               {" "}
-              Les matériaux sont les premiers qu'ils attaquent. Ils les rendent
+              Les matériaux sont les premiers qu&apos;ils attaquent. Ils les rendent
               plus poreux et les fragilisent en y occasionnant des cassures, des
               fissures ou des éclatements. Cela crée des infiltrations dans le
-              bâtiment. De plus, cette couche de végétation détruit l'esthétique
+              bâtiment. De plus, cette couche de végétation détruit l&apos;esthétique
               du toit, obstrue les chéneaux et surcharge la charpente. Ces deux
               premières actions des lichens et des mousses se soldent par la
-              dégradation de l'isolation thermique de la maison. Vos équipements
-              de chauffage consommeront alors plus d'énergie électrique que
+              dégradation de l&apos;isolation thermique de la maison. Vos équipements
+              de chauffage consommeront alors plus d&apos;énergie électrique que
               nécessaire. Pour toutes ces raisons, vous devez périodiquement
               nettoyer votre toit pour assurer sa longévité.
             </p>
@@ -344,7 +344,7 @@ export const Pages = {
               excellente tenue au jaunissement, au blanchiment ou à la
               décoloration. Elle assure une excellente résistance face au milieu
               marin, urbain ou industriel. Elle empêche les salissures
-              d'encrasser les couvertures grâce à un très bon effet
+              d&apos;encrasser les couvertures grâce à un très bon effet
               auto-nettoyant.
             </p>
             <p>
@@ -353,7 +353,7 @@ export const Pages = {
               ruissellements ou autres intempéries. Elle permet de renforcer un
               matériau qui devient trop poreux, trop perméable ou plus
               suffisamment étanche au fil du temps. Elle améliore également le
-              rendu esthétique d'un toit ou d'une couverture.
+              rendu esthétique d&apos;un toit ou d&apos;une couverture.
             </p>
           </>
         ),
