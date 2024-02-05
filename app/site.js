@@ -15,9 +15,9 @@ export const site = {
 
 export const menuItems = [
   { label: "Accueil", route: "/" },
-  { label: "ravalement", route: "/peinture-exterieure" },
-  { label: "Peinture & décoration", route: "/peinture-interieure" },
-  { label: "Peintures & Nuanciers", route: "/peinture-nuancier" },
+  { label: "ravalement", route: "/ravalement" },
+  { label: "Peinture & décoration", route: "/peinture-decoration" },
+  { label: "Nuanciers & marque partenaire", route: "/peinture-nuancier" },
   { label: "Nettoyage", route: "/nettoyage" },
   { label: "Nos réalisations", route: "/realisations" },
   { label: "Contact", route: "/contact" },
@@ -44,7 +44,7 @@ export const cards = [
     alt: "",
   },
   {
-    title: "PEINTURES ET NUANCIERS",
+    title: "NUANCIERS et MARQUE PARTENAIRE",
     text: "",
     button: "",
     buttonColor: "bg-gold-500",
@@ -65,7 +65,6 @@ export const cards = [
 ];
 
 export const cards2 = [
-  
   {
     title: "NETTOYAGE",
     text: "",
@@ -75,7 +74,6 @@ export const cards2 = [
     url: "realisations-13.jpeg",
     alt: "",
   },
-
 ];
 
 export const sections = [
@@ -103,7 +101,7 @@ export const listesActions = [
     actions: [""],
   },
   {
-    title: "PEINTURE EXTERIEURE",
+    title: "RAVALEMENT",
     subTitle: "",
     photo: { url: "", alt: "" },
     actions: ["", "", ""],
@@ -157,38 +155,7 @@ export const Pages = {
     ],
     cards: [],
   },
-  "peinture-exterieure": {
-    title: "Peinture extérieure",
-    description: "",
-    photos: [
-      { url: "reparation-1.png", alt: "gallery" },
-      { url: "reparation-2.png", alt: "gallery" },
-      { url: "reparation-3.png", alt: "gallery" },
-      { url: "reparation-4.png", alt: "gallery" },
-    ],
-    sections: [
-      {
-        title: "NOS SAVOIR FAIRE :",
-        body: (
-          <ul className="list-disc pl-4">
-            <li> Peinture extérieur</li>
-            <li> Peinture sur boiseries</li>
-            <li>
-              {" "}
-              Création et rénovation peinture sur dessous de toit (cache
-              moineau){" "}
-            </li>
-            <li> Peinture sur volet</li>
-            <li> Peinture ferronneries et métaux</li>
-            <li> Ravalement extérieur</li>
-            <li> Peinture d&apos;étanchéité pour toiture</li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
-  "peinture-interieure": {
+  "peinture-decoration": {
     title: "Peinture intérieure",
     description: "",
     photos: [
@@ -316,20 +283,79 @@ export const Pages = {
     title: "NETTOYAGE",
     description: "",
     photos: [
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
+      { url: "nettoyage-toiture-1-1.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-2.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-3.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-4.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-5.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-6.jpeg", alt: "gallery" },
+      { url: "nettoyage-toiture-1-7.jpeg", alt: "gallery" },
     ],
     sections: [
       {
-        title: "NOS SAVOIR FAIRE :",
+        title: "Pourquoi procéder au nettoyage de votre toiture ?",
         body: (
-          <ul className="list-disc pl-4">
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <>
+            <p>
+              {" "}
+              Le toit est la partie d'une maison la plus exposée aux
+              intempéries. La pluie, le soleil, et le vent peuvent avoir un
+              impact sur lui. L'air ambiant transporte une quantité importante
+              d'organismes vivants. Au nombre de ceux-ci se trouvent la mousse
+              et les lichens qui peuvent se poser sur n'importe quel support.
+              Sous l'action de l'eau pluviale, ces indésirables prennent
+              d'assaut les toitures et y prolifèrent. Ils réussissent à vite se
+              répandre sur les couvertures parce qu'elles sont faites avec des
+              matériaux qui sont pour la plupart poreux. Les lichens et les
+              mousses y trouvent donc de l'humidité et se développent.
+            </p>
+          </>
+        ),
+      },
+      {
+        title:
+          "Comment leur propagation affecte-t-elle la longévité d'un édifice ?",
+        body: (
+          <>
+            <p>
+              {" "}
+              Les matériaux sont les premiers qu'ils attaquent. Ils les rendent
+              plus poreux et les fragilisent en y occasionnant des cassures, des
+              fissures ou des éclatements. Cela crée des infiltrations dans le
+              bâtiment. De plus, cette couche de végétation détruit l'esthétique
+              du toit, obstrue les chéneaux et surcharge la charpente. Ces deux
+              premières actions des lichens et des mousses se soldent par la
+              dégradation de l'isolation thermique de la maison. Vos équipements
+              de chauffage consommeront alors plus d'énergie électrique que
+              nécessaire. Pour toutes ces raisons, vous devez périodiquement
+              nettoyer votre toit pour assurer sa longévité.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "IMPORTANCE DE LA PEINTURE TOITURE",
+        body: (
+          <>
+            <p>
+              {" "}
+              La peinture pour toiture préserve les surfaces minérales inclinées
+              des différentes sollicitations extérieures. Elle offre une
+              excellente tenue au jaunissement, au blanchiment ou à la
+              décoloration. Elle assure une excellente résistance face au milieu
+              marin, urbain ou industriel. Elle empêche les salissures
+              d'encrasser les couvertures grâce à un très bon effet
+              auto-nettoyant.
+            </p>
+            <p>
+              Cette peinture toiture hydrofuge permet de résister efficacement
+              face aux milieux difficiles comme les pluies, les orages, les
+              ruissellements ou autres intempéries. Elle permet de renforcer un
+              matériau qui devient trop poreux, trop perméable ou plus
+              suffisamment étanche au fil du temps. Elle améliore également le
+              rendu esthétique d'un toit ou d'une couverture.
+            </p>
+          </>
         ),
       },
     ],
@@ -339,7 +365,6 @@ export const Pages = {
     title: "Nos réalisations",
     description: "",
     photos: [
-      
       { url: "chantier-01-1.jpeg", alt: "" },
       { url: "chantier-01-2.jpeg", alt: "" },
       { url: "chantier-01-3.jpeg", alt: "" },
@@ -387,12 +412,31 @@ export const Pages = {
     title: "Ravalements",
     description: "",
     photos: [
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
-      { url: "", alt: "" },
+      { url: "ravalement-1-1.jpeg", alt: "gallery" },
+      { url: "ravalement-1-2.jpeg", alt: "gallery" },
+      { url: "ravalement-1-3.jpeg", alt: "gallery" },
+      { url: "ravalement-1-4.jpeg", alt: "gallery" },
+      { url: "ravalement-1-5.jpeg", alt: "gallery" },
+      { url: "ravalement-1-6.jpeg", alt: "gallery" },
+      { url: "ravalement-1-7.jpeg", alt: "gallery" },
     ],
     sections: [
+      {
+        title:
+          "UNE NOUVELLE PEINTURE DE FACADE POUR VOTRE MAISON? KER PROTEC !",
+        body: (
+          <p>
+            {" "}
+            Spécialistes des travaux de peinture extérieure, nous vous proposons
+            un grand choix de peintures adaptées aux revêtements extérieurs. Nos
+            produits recouvrent efficacement les petites aspérités des murs et
+            protègent sur le long terme votre construction. Un enduit fissuré,
+            un crépi effrité, une peinture écaillée… Confiez votre projet de
+            ravalement de façade à nos professionnels.
+          </p>
+        ),
+      },
+
       {
         title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
         body: (
