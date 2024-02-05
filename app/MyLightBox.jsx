@@ -22,13 +22,13 @@ const MyLightBox = ({ photos }) => {
     {photos.map((photo, index) => (
       <div
         key={index}
-        className="flex w-full h-auto lg:w-1/4 "
+        className="flex mx-auto w-full h-auto lg:w-1/5 "
       >
         <img
           src={`images/${photo.url}`}
           data-te-img={`images/${photo.url}`}
           alt={photo.alt}
-          className={`mb-5 w-full cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto`}
+          className={`mb-5 w-72 h-72 object-cover object-center cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto`}
         />
       </div>
     ))}
