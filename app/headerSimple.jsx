@@ -39,7 +39,7 @@ const HeaderSimple = ({ photos, title }) => {
                 href="/contact"
                 role="button"
               >
-                Me contacter
+                Nous contacter
               </a>
             </div>
           </div>

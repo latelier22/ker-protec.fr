@@ -15,19 +15,17 @@ export const site = {
 
 export const menuItems = [
   { label: "Accueil", route: "/" },
-  { label: "Peinture extérieure", route: "/peinture-exterieure" },
-  { label: "Peinture intérieure", route: "/peinture-interieure" },
+  { label: "ravalement", route: "/peinture-exterieure" },
+  { label: "Peinture & décoration", route: "/peinture-interieure" },
   { label: "Peintures & Nuanciers", route: "/peinture-nuancier" },
-  { label: "Entretien", route: "/entretien" },
   { label: "Nettoyage", route: "/nettoyage" },
-  { label: "ravalement", route: "/ravalement" },
   { label: "Nos réalisations", route: "/realisations" },
   { label: "Contact", route: "/contact" },
 ];
 
 export const cards = [
   {
-    title: "PEINTURE EXTERIEURE",
+    title: "RAVALEMENT",
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
@@ -37,7 +35,7 @@ export const cards = [
   },
 
   {
-    title: "PEINTURE INTERIEURE",
+    title: "PEINTURE & DECORATION",
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
@@ -68,17 +66,6 @@ export const cards = [
 
 export const cards2 = [
   
-
-  {
-    title: "ENTRETIEN",
-    text: "",
-    button: "Détail",
-    buttonColor: "bg-gold-500",
-    link: "/entretien",
-    url: "realisations-15.jpeg",
-    alt: "",
-  },
-
   {
     title: "NETTOYAGE",
     text: "",
@@ -89,15 +76,6 @@ export const cards2 = [
     alt: "",
   },
 
-  {
-    title: "ravalement",
-    text: "",
-    button: "",
-    buttonColor: "bg-gold-500",
-    link: "/ravalement",
-    url: "realisations-3.jpeg",
-    alt: "",
-  },
 ];
 
 export const sections = [
@@ -109,9 +87,9 @@ export const sections = [
     title: " NOS SAVOIRS FAIRE",
     body: (
       <ul className="list-disc pl-4">
-        <li>Peinture extérieure</li>
-        <li>Peinture intérieure</li>
-        <li></li>
+        <li>Peinture extérieure / ravalement</li>
+        <li>Peinture intérieure / décoration</li>
+        <li>Nettoyage et peinture de toiture</li>
       </ul>
     ),
   },
