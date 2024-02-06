@@ -20,7 +20,7 @@ const Cards = ({ cards, buttonColor , syliusCard}) => {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="flex md:mb-8 justify-center w-full md:w-1/2 lg:w-1/4 flex-wrap "
+                className="flex md:mb-8 justify-center w-full md:w-1/2 lg:w-1/3 flex-wrap "
               >
                 <div style={{ flex: "1" }}>
                   <Card

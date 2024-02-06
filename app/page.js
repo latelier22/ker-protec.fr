@@ -32,9 +32,9 @@ const Home = () => {
 
       <Section section={sections[1]} />
       
-      <div className="bg-white dark:bg-neutral-900 dark:text-gold-500">
+      {/* <div className="bg-white dark:bg-neutral-900 dark:text-gold-500">
         <Cards cards={cards2} buttonColor={backgroundColor} />
-      </div>
+      </div> */}
 
 
       <Footer />

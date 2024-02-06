@@ -29,7 +29,7 @@ export const cards = [
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
-    link: "/peinture-exterieure",
+    link: "/ravalement",
     url: "peinture-mur-exterieur.png",
     alt: "",
   },
@@ -39,7 +39,7 @@ export const cards = [
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
-    link: "/peinture-interieure",
+    link: "/peinture-decoration",
     url: "peinture-mur-interieur.png",
     alt: "",
   },
@@ -52,7 +52,15 @@ export const cards = [
     url: "peinture-nuancier-4.png",
     alt: "",
   },
-
+  {
+    title: "NETTOYAGE",
+    text: "",
+    button: "",
+    buttonColor: "bg-gold-500",
+    link: "/nettoyage",
+    url: "realisations-13.jpeg",
+    alt: "",
+  },
   {
     title: "NOS REALISATIONS",
     text: "",
@@ -62,6 +70,7 @@ export const cards = [
     url: "menu-peinture-exterieure.png",
     alt: "",
   },
+
 ];
 
 export const cards2 = [
