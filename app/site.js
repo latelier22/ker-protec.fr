@@ -1,6 +1,6 @@
 export const site = {
   title: "KER PROTEC",
-  description: "KER PROTEC - Olivier MIQUEL- 07 71 84 91 07",
+  description: "KER PROTEC - Olivier GUREME- 07 71 84 91 07",
   societe: "KER PROTEC",
   SIRET: "53478675100022",
   contact: "Olivier GUREME",
