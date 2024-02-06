@@ -49,8 +49,8 @@ const FormContact = () => {
 
   return (
     <>
-      <div className ="pt-32" style={{ textAlign: "center" }}>
-        <h1>Contact</h1>
+      <div className ="text-black pt-32" style={{ textAlign: "center" }}>
+        <h1 className="text-white">FORMULAIRE DE CONTACT:</h1>
 
         {/* Formulaire */}
         <form
@@ -58,7 +58,7 @@ const FormContact = () => {
           onSubmit={handleSubmit(onSubmitHandler)}
         >
           {isSended && (
-            <p>
+            <p className="text-white">
               Votre message a bien été envoyé avec succès, nous vous répondrons rapidement.
             </p>
           )}
@@ -123,7 +123,7 @@ const FormContact = () => {
                 Contenu du message
               </label>
               <textarea
-                className="input w-full border-2 border-neutral-500"
+                className="input text-black w-full border-2 border-neutral-500"
                 rows="9"
                 placeholder="Votre message..."
                 {...register("contenu", { required: true })}
@@ -144,7 +144,7 @@ const FormContact = () => {
             }}
           >
             {!isLoading && (
-              <button style={{ padding: "5px 10px" }}>Envoyer</button>
+              <button className="text-white" style={{ padding: "5px 10px" }}>Envoyer</button>
             )}
           </div>
         </form>
