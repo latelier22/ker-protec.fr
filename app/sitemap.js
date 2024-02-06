@@ -1,10 +1,10 @@
 // app/sitemap.js
 
 // L'URL de votre site
-const URL = "https://www.couvreur-loudeac.fr"
+const URL = "https://www.ker-protec.fr"
 
 // Vos routes statiques
-const SITE_ROUTES = ["", "/contact", "/entretien", "/fuite", "/reparation", "/travaux-divers"]
+const SITE_ROUTES = ["", "/contact", "/ravalement", "/peinture-decoration","/peinture-nuancier", "/nettoyage", "realisations"]
 
 // Vos routes dynamiques
 // Ici, on utilisera plus souvent le résultat d'un call API
