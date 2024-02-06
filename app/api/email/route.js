@@ -29,9 +29,9 @@ export async function POST(request) {
   
    // CrÃ©ation du message
 	const sendGridMail = {
-		to: "contact@couvreurvannes.fr",
-		from: "contact@couvreurvannes.fr",
-		templateId: "d-4660587aed21443ea9cfa422302dd368",
+		to: "contact@ker-protec.fr",
+		from: "contact@ker-protec.fr",
+		templateId: "d-ce48ad5a6f0443aea3397551ddb25906",
 		dynamic_template_data: {
 			prenom: prenom,
 			nom: nom,
