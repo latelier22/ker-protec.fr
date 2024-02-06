@@ -14,18 +14,19 @@ const HeaderSimple = ({ photos, title }) => {
 
   return (
     <header>
-      <div className=" bg-sky-200  text-center text-neutral-200 dark:bg-neutral-900 dark:text-neutral-200">
+      <div className="text-center text-neutral-200 dark:bg-neutral-900 dark:text-neutral-200">
         <div className="flex flex-col  lg:flex-row first-letter:lg:justify-around  justify-center items-center">
-          <div className=" md:block lg:self-start">
+          <div className=" z-50 md:block lg:self-start">
             <img
               src={site.Logo.url}
               className=" rounded-2xl mx-4  p-4 w-40 lg:w-96 h-auto "
               alt=""
             />
           </div>
-          <div className="flex-col justify-center">
+          <div className="flex-col justify-between">
             {/* <h1 className="mb-6 text-gold-600  text-5xl font-bold"> */}
-            <h1 className="font-bold text-transparent text-5xl bg-clip-text bg-gradient-to-br from-gold-800 via-gold-400 to-gold-800">
+            <h1 className="font-bold text-transparent mt-8 text-5xl bg-clip-text bg-gradient-to-br from-gold-800 via-gold-400 to-gold-800">
+              <br className="hidden md:block"/>
               Peinture / Décoration intérieure / Ravalement
             </h1>
             <div className="flex flex-col  justify-around items-center">
