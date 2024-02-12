@@ -84,10 +84,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex ml-10 md:ml-0 flex-row items-center self:justify-end">
-        <a href="#!" className="text-sky-300 dark:text-neutral-200">
+        <a href="https://www.facebook.com/profile.php?id=61556209084036" className="text-sky-300 dark:text-sky-300">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
+            className="h-12 w-12"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
