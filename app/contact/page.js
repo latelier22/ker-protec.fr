@@ -1,9 +1,9 @@
 
 
-import Navbar from "../NavBar";
-import Footer from "../Footer";
-import RootLayout from "../layout";
-import FormContact from "../FormContact";
+import Navbar from "../../src/components/NavBar";
+import Footer from "../../src/components/Footer";
+import RootLayout from "../../src/components/layout";
+import FormContact from "../../src/components/FormContact";
 
 const Contact = () => {
   const pageTitle = 'Contact';

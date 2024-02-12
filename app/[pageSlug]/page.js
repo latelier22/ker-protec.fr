@@ -1,14 +1,13 @@
 // MyPage.js
 
 import React from "react";
-import Navbar from "../NavBar";
-import Footer from "../Footer";
-import RootLayout from "../layout";
-import HeaderSimple from "../headerSimple";
-import Section from "../Section";
-import ImagesBar from "../ImagesBar";
-import Cards from "../Cards";
-import MyLightBox from "../MyLightBox"
+import Navbar from "../../src/components/NavBar";
+import Footer from "../../src/components/Footer";
+import RootLayout from "../../src/components/layout";
+import HeaderSimple from "../../src/components/headerSimple";
+
+import Cards from "../../src/components/Cards";
+import MyLightBox from "../../src/components/MyLightBox"
 import { Pages } from "../site";
 
 const MyPage = ({ params }) => {
@@ -30,13 +29,7 @@ const MyPage = ({ params }) => {
 
       <HeaderSimple photos={page.photos} title={page.title}/>
 
-      {/* <ImagesBar photos={page.photos} /> */}
       <MyLightBox photos={page.photos} />
-
-      {page.sections.map((section, index) => (
-        <Section key={index} section={section} />
-      ))}
-     
 
       <div className="">
         <Cards cards={page.cards}  />

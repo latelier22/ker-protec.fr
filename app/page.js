@@ -1,12 +1,11 @@
 import React from "react";
-import RootLayout from "../app/layout";
+import RootLayout from "./layout";
 import Navbar from "./NavBar";
 import HeaderSimple from "./headerSimple";
 import Footer from "./Footer";
-import Pictos from "./Pictos"
 import Cards from "./Cards";
 import Section from "./Section";
-import {cards, cards2, sections} from "./site"
+import {cards, sections} from "./site"
 
 const Home = () => {
   // Dynamic metadata for the home page
@@ -22,20 +21,14 @@ const Home = () => {
     <RootLayout pageTitle={pageTitle} pageDescription={pageDescription}>
       <Navbar />
       <HeaderSimple photos={photos} title={pageTitle}/>
-      {/* <Pictos /> */}
-      <Section section={sections[0]} />
 
+      <Section section={sections[0]} />
 
       <div className="bg-white dark:bg-neutral-900 dark:text-gold-500">
         <Cards cards={cards} buttonColor={backgroundColor} />
       </div>
 
       <Section section={sections[1]} />
-      
-      {/* <div className="bg-white dark:bg-neutral-900 dark:text-gold-500">
-        <Cards cards={cards2} buttonColor={backgroundColor} />
-      </div> */}
-
 
       <Footer />
     </RootLayout>

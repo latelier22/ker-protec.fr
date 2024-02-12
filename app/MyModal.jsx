@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 
-const MyModal = ({ index, image, card, children, className }) => {
+const MyModal = ({ index, image, card }) => {
   useEffect(() => {
     
     const init = async () => {
