@@ -196,8 +196,8 @@ export const Pages = {
                 garage, disponible dans un large choix de couleurs.
               </li>
               <li>
-                <strong>Couche d'impression :</strong> pour les murs et plafonds
-                qui n'ont jamais été peints.
+                <strong>Couche d&aposimpression :</strong> pour les murs et plafonds
+                qui n&aposont jamais été peints.
               </li>
               <li>
                 <strong>Peintures velours :</strong> optimales pour les
@@ -206,7 +206,7 @@ export const Pages = {
               </li>
               <li>
                 <strong>Peintures satinées :</strong> destinées aux pièces plus
-                exposées à l'humidité comme les salles de bain et la cuisine.
+                exposées à l&aposhumidité comme les salles de bain et la cuisine.
               </li>
             </ul>
             <p>
@@ -229,8 +229,8 @@ export const Pages = {
         title: "NOS SAVOIR FAIRE :",
         body: (
           <ul className="list-disc pl-4">
-            <li>Réparation d'enduit</li>
-            <li>Rénovation et décoration d'intérieur</li>
+            <li>Réparation d&aposenduit</li>
+            <li>Rénovation et décoration d&aposintérieur</li>
             <li>Protection des sols et mobilier</li>
             <li>Revêtement de sols & pose de plinthes</li>
             <li>Pose de papier & toile de verre ou rénovation</li>
@@ -262,7 +262,7 @@ export const Pages = {
           <ul className="list-disc pl-4">
             <p>Car votre satisfaction est notre exigence, nous vous proposons un très large choix de couleurs et de produits professionnels fabriqués par des experts pour satisfaire vos attentes.</p>
     <p>Nous saurons vous conseiller les couleurs qui embelliront votre intérieur ou les façades de votre maison. Avec nos fournisseurs, nous mettrons également tout en œuvre pour trouver les produits idéaux pour votre projet.</p>
-    <p>Des peintures professionnelles, respectueuses de l'environnement et adaptées à vos besoins, protégeront votre maison et lui donneront une plus-value.</p>
+    <p>Des peintures professionnelles, respectueuses de l&aposenvironnement et adaptées à vos besoins, protégeront votre maison et lui donneront une plus-value.</p>
           </ul>
         ),
       },
@@ -328,7 +328,7 @@ export const Pages = {
       },
       {
         title:
-          "Comment leur propagation affecte-t-elle la longévité d'un édifice ?",
+          "Comment leur propagation affecte-t-elle la longévité d&aposun édifice ?",
         body: (
           <>
             <p>
@@ -437,7 +437,7 @@ export const Pages = {
     ],
     sections: [
       {
-        title: "Envie ou besoin d'une nouvelle peinture pour vos façades ?",
+        title: "Envie ou besoin d&aposune nouvelle peinture pour vos façades ?",
         body: (
           <>
             <p>
@@ -445,7 +445,7 @@ export const Pages = {
               mener à bien votre projet de ravalement peinture de votre maison.
             </p>
             <p>
-              Un très grand choix de couleurs est disponible, ainsi qu'une
+              Un très grand choix de couleurs est disponible, ainsi qu&aposune
               peinture adaptée à votre projet de ravalement.
             </p>
           </>
@@ -456,7 +456,7 @@ export const Pages = {
         title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
         body: (
           <>
-            <h1>Les différentes étapes d'un ravalement de façade</h1>
+            <h1>Les différentes étapes d&aposun ravalement de façade</h1>
             <p>
               Afin de satisfaire vos demandes, il faut dans un premier temps
               préparer le chantier :
@@ -473,7 +473,7 @@ export const Pages = {
                 et terrasse, portes et volets.
               </li>
               <li>
-                La mise en peinture : l'application d'un fixateur si nécessaire,
+                La mise en peinture : l&aposapplication d&aposun fixateur si nécessaire,
                 ensuite deux couches de peinture seront appliquées.
               </li>
               <li>
@@ -482,7 +482,7 @@ export const Pages = {
               </li>
             </ul>
             <p>
-              Nous mettons un point d'honneur à la satisfaction de nos clients.
+              Nous mettons un point d&aposhonneur à la satisfaction de nos clients.
             </p>
             <br />
             <ul className="list-disc pl-4">
