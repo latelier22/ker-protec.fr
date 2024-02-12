@@ -328,7 +328,7 @@ export const Pages = {
       },
       {
         title:
-          "Comment leur propagation affecte-t-elle la longévité d&apos;un édifice ?",
+          "Comment leur propagation affecte-t-elle la longévité d'un édifice ?",
         body: (
           <>
             <p>
@@ -437,7 +437,7 @@ export const Pages = {
     ],
     sections: [
       {
-        title: "Envie ou besoin d&aposune nouvelle peinture pour vos façades ?",
+        title: "Envie ou besoin d'une nouvelle peinture pour vos façades ?",
         body: (
           <>
             <p>
@@ -445,7 +445,7 @@ export const Pages = {
               mener à bien votre projet de ravalement peinture de votre maison.
             </p>
             <p>
-              Un très grand choix de couleurs est disponible, ainsi qu&aposune
+              Un très grand choix de couleurs est disponible, ainsi qu&apos;une
               peinture adaptée à votre projet de ravalement.
             </p>
           </>
@@ -456,7 +456,7 @@ export const Pages = {
         title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
         body: (
           <>
-            <h1>Les différentes étapes d&aposun ravalement de façade</h1>
+            <h1>Les différentes étapes d&apos;un ravalement de façade</h1>
             <p>
               Afin de satisfaire vos demandes, il faut dans un premier temps
               préparer le chantier :
