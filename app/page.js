@@ -3,10 +3,9 @@ import RootLayout from "../app/layout";
 import Navbar from "./NavBar";
 import HeaderSimple from "./headerSimple";
 import Footer from "./Footer";
-import Pictos from "./Pictos"
 import Cards from "./Cards";
 import Section from "./Section";
-import {cards, cards2, sections} from "./site"
+import {cards, sections} from "./site"
 
 const Home = () => {
   // Dynamic metadata for the home page

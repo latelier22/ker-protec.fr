@@ -6,7 +6,6 @@ import Footer from "../Footer";
 import RootLayout from "../layout";
 import HeaderSimple from "../headerSimple";
 import Section from "../Section";
-import ImagesBar from "../ImagesBar";
 import Cards from "../Cards";
 import MyLightBox from "../MyLightBox"
 import { Pages } from "../site";
