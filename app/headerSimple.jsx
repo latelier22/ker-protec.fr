@@ -16,7 +16,7 @@ const HeaderSimple = ({ photos, title }) => {
     <header>
       <div className="text-center text-neutral-200 dark:bg-neutral-900 dark:text-neutral-200">
         <div className="flex flex-col  lg:flex-row first-letter:lg:justify-around  justify-center items-center">
-          <div className=" z-50 md:block lg:self-start">
+          <div className="md:block lg:self-start">
             <img
               src={site.Logo.url}
               className=" rounded-2xl mx-4  p-4 w-40 lg:w-96 h-auto "

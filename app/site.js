@@ -70,7 +70,6 @@ export const cards = [
     url: "menu-peinture-exterieure.png",
     alt: "",
   },
-
 ];
 
 export const cards2 = [
@@ -88,7 +87,8 @@ export const cards2 = [
 export const sections = [
   {
     title: "Qui sommes-nous?",
-    body: "KER PROTEC est spécialisé dans les travaux de peinture extérieure, le ravalement et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à ker protec et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
+    body: "Fort de notre expérience de plus de 10 ans  nous vous accompagnerons  dans votre projet et mettrons tout en œuvre pour satisfaire vos exigences .\
+    Que se soit pour un projet de peinture intérieure , décoration , ravalement, revêtement de sol, ou encore plus simplement le nettoyage de vos façades et toiture. Confier votre projet à Ker Protec vôtre peintre a Vannes et ces alentours .",
   },
   {
     title: " NOS SAVOIRS FAIRE",
@@ -183,46 +183,61 @@ export const Pages = {
     ],
     sections: [
       {
-        title: "NOS SAVOIR FAIRE :",
+        title: "Donnez de la couleur à votre intérieur :",
         body: (
-          <ul className="list-disc pl-4">
-            <li>Enduit réparation</li>
-            <li>Rénovation & Décoration intérieur</li>
-            <li>Protection des sols et meubles Lessivage</li>
-            <li>Protection des sols et meubles Lessivage</li>
-            <li>Application d&apos;une couche d&apos;impression acrylique</li>
-            <li>Rebouchage et lissage des surfaces</li>
-            <li>Enduisage</li>
-            <li>Ponçage</li>
-          </ul>
+          <>
+            <p>
+              Ker Protec vous propose un très large choix de prestations et de
+              finitions :
+            </p>
+            <ul>
+              <li>
+                <strong>Peintures mat :</strong> idéal pour vos plafonds et
+                garage, disponible dans un large choix de couleurs.
+              </li>
+              <li>
+                <strong>Couche d'impression :</strong> pour les murs et plafonds
+                qui n'ont jamais été peints.
+              </li>
+              <li>
+                <strong>Peintures velours :</strong> optimales pour les
+                différentes pièces à vivre de votre maison, elles sont
+                lessivables et résistent parfaitement dans le temps.
+              </li>
+              <li>
+                <strong>Peintures satinées :</strong> destinées aux pièces plus
+                exposées à l'humidité comme les salles de bain et la cuisine.
+              </li>
+            </ul>
+            <p>
+              Un très large choix de couleurs pourra vous être proposé selon vos
+              goûts.
+            </p>
+            <h2>Revêtements de sols</h2>
+            <p>
+              Nous vous proposons également la pose de revêtements de sol,
+              parquet bois ou flottant.
+            </p>
+            <p>
+              Nous proposons également des peintures sols résistantes pour
+              garage, escalier extérieur, terrasse ou autre.
+            </p>
+          </>
         ),
       },
       {
-        title: "PEINTURE DES MURS, SOLS ET PLAFONDS :",
+        title: "NOS SAVOIR FAIRE :",
         body: (
           <ul className="list-disc pl-4">
+            <li>Réparation d'enduit</li>
+            <li>Rénovation et décoration d'intérieur</li>
+            <li>Protection des sols et mobilier</li>
+            <li>Revêtement de sols & pose de plinthes</li>
+            <li>Pose de papier & toile de verre ou rénovation</li>
+            <li>Pose de plaques de parement intérieur et extérieur</li>
             <li>
-              L’intégralité des travaux de peinture par nos équipes: peinture
-              des murs, sols et plafonds
-            </li>
-            <li>
-              Les peintures professionnelles sont particulièrement performantes
-              pour couvrir murs et plafonds, mais aussi vos sols. Présentant une
-              extrême résistance chimique et mécanique, il est possible de
-              repeindre votre parquet, votre escalier, votre carrelage ou votre
-              sol en béton
-            </li>
-            <li>
-              Ces peintures adaptées résistent aux allées et venues de toute la
-              maisonnée.
-            </li>
-            <li>Structurer l&apos;espace grâce à la peinture décorative</li>
-            <li>
-              Pour affirmer le caractère d’une pièce, optez pour une couleur
-              forte sur un seul pan de murs. Le choix d’une couleur claire
-              agrandira la pièce. Peindre un plafond d’une couleur sombre
-              l&apos;abaissera visuellement ; appliquer la même couleur aux murs
-              réduira l’espace.
+              Peinture sur boiseries / vernis & vitrification (escalier,
+              parquet, porte, volets)
             </li>
           </ul>
         ),
@@ -245,20 +260,9 @@ export const Pages = {
         title: "LA COULEUR:",
         body: (
           <ul className="list-disc pl-4">
-            <li>
-              La couleur est un concept universel qui ne se limite pas à une
-              représentativité de teintes.{" "}
-            </li>
-
-            <li>
-              Elle est l’élément créatif qui assure le lien entre décoration et
-              émotion, elle fait écho à la sensibilité de chacun, à son histoire
-              et est le reflet de notre personnalité et de nos envies éphémères.{" "}
-            </li>
-            <li>
-              Chaque teinte évoque de manière intime un reflet de notre
-              personnalité ou de notre vie.
-            </li>
+            <p>Car votre satisfaction est notre exigence, nous vous proposons un très large choix de couleurs et de produits professionnels fabriqués par des experts pour satisfaire vos attentes.</p>
+    <p>Nous saurons vous conseiller les couleurs qui embelliront votre intérieur ou les façades de votre maison. Avec nos fournisseurs, nous mettrons également tout en œuvre pour trouver les produits idéaux pour votre projet.</p>
+    <p>Des peintures professionnelles, respectueuses de l'environnement et adaptées à vos besoins, protégeront votre maison et lui donneront une plus-value.</p>
           </ul>
         ),
       },
@@ -309,14 +313,15 @@ export const Pages = {
               {" "}
               Le toit est la partie d&apos;une maison la plus exposée aux
               intempéries. La pluie, le soleil, et le vent peuvent avoir un
-              impact sur lui. L&apos;air ambiant transporte une quantité importante
-              d&apos;organismes vivants. Au nombre de ceux-ci se trouvent la mousse
-              et les lichens qui peuvent se poser sur n&apos;importe quel support.
-              Sous l&apos;action de l&apos;eau pluviale, ces indésirables prennent
-              d&apos;assaut les toitures et y prolifèrent. Ils réussissent à vite se
-              répandre sur les couvertures parce qu&apos;elles sont faites avec des
-              matériaux qui sont pour la plupart poreux. Les lichens et les
-              mousses y trouvent donc de l&apos;humidité et se développent.
+              impact sur lui. L&apos;air ambiant transporte une quantité
+              importante d&apos;organismes vivants. Au nombre de ceux-ci se
+              trouvent la mousse et les lichens qui peuvent se poser sur
+              n&apos;importe quel support. Sous l&apos;action de l&apos;eau
+              pluviale, ces indésirables prennent d&apos;assaut les toitures et
+              y prolifèrent. Ils réussissent à vite se répandre sur les
+              couvertures parce qu&apos;elles sont faites avec des matériaux qui
+              sont pour la plupart poreux. Les lichens et les mousses y trouvent
+              donc de l&apos;humidité et se développent.
             </p>
           </>
         ),
@@ -328,16 +333,17 @@ export const Pages = {
           <>
             <p>
               {" "}
-              Les matériaux sont les premiers qu&apos;ils attaquent. Ils les rendent
-              plus poreux et les fragilisent en y occasionnant des cassures, des
-              fissures ou des éclatements. Cela crée des infiltrations dans le
-              bâtiment. De plus, cette couche de végétation détruit l&apos;esthétique
-              du toit, obstrue les chéneaux et surcharge la charpente. Ces deux
-              premières actions des lichens et des mousses se soldent par la
-              dégradation de l&apos;isolation thermique de la maison. Vos équipements
-              de chauffage consommeront alors plus d&apos;énergie électrique que
-              nécessaire. Pour toutes ces raisons, vous devez périodiquement
-              nettoyer votre toit pour assurer sa longévité.
+              Les matériaux sont les premiers qu&apos;ils attaquent. Ils les
+              rendent plus poreux et les fragilisent en y occasionnant des
+              cassures, des fissures ou des éclatements. Cela crée des
+              infiltrations dans le bâtiment. De plus, cette couche de
+              végétation détruit l&apos;esthétique du toit, obstrue les chéneaux
+              et surcharge la charpente. Ces deux premières actions des lichens
+              et des mousses se soldent par la dégradation de l&apos;isolation
+              thermique de la maison. Vos équipements de chauffage consommeront
+              alors plus d&apos;énergie électrique que nécessaire. Pour toutes
+              ces raisons, vous devez périodiquement nettoyer votre toit pour
+              assurer sa longévité.
             </p>
           </>
         ),
@@ -431,34 +437,65 @@ export const Pages = {
     ],
     sections: [
       {
-        title:
-          "UNE NOUVELLE PEINTURE DE FACADE POUR VOTRE MAISON? KER PROTEC !",
+        title: "Envie ou besoin d'une nouvelle peinture pour vos façades ?",
         body: (
-          <p>
-            {" "}
-            Spécialistes des travaux de peinture extérieure, nous vous proposons
-            un grand choix de peintures adaptées aux revêtements extérieurs. Nos
-            produits recouvrent efficacement les petites aspérités des murs et
-            protègent sur le long terme votre construction. Un enduit fissuré,
-            un crépi effrité, une peinture écaillée… Confiez votre projet de
-            ravalement de façade à nos professionnels.
-          </p>
+          <>
+            <p>
+              Ker Protec, votre peintre à Vannes, saura vous conseiller afin de
+              mener à bien votre projet de ravalement peinture de votre maison.
+            </p>
+            <p>
+              Un très grand choix de couleurs est disponible, ainsi qu'une
+              peinture adaptée à votre projet de ravalement.
+            </p>
+          </>
         ),
       },
 
       {
         title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
         body: (
-          <ul className="list-disc pl-4">
-            <li>La préparation du chantier</li>
-            <li>Le nettoyage ou le décapage de la façade</li>
-            <li>La réparation et le traitement des murs</li>
-            <li>La protection et/ou l’embellissement.</li>
-          </ul>
+          <>
+            <h1>Les différentes étapes d'un ravalement de façade</h1>
+            <p>
+              Afin de satisfaire vos demandes, il faut dans un premier temps
+              préparer le chantier :
+            </p>
+            <ul>
+              <li>Nettoyage de vos façades et pignons.</li>
+              <li>
+                Décapage, retrait de la peinture écaillée, réparation des
+                fissures et rebouchage des zones abîmées ou différences de
+                surface.
+              </li>
+              <li>
+                Protection du mobilier extérieur et des zones non peintes, sols
+                et terrasse, portes et volets.
+              </li>
+              <li>
+                La mise en peinture : l'application d'un fixateur si nécessaire,
+                ensuite deux couches de peinture seront appliquées.
+              </li>
+              <li>
+                Un nettoyage du chantier sera systématiquement effectué pour
+                vous rendre les lieux comme avant notre intervention.
+              </li>
+            </ul>
+            <p>
+              Nous mettons un point d'honneur à la satisfaction de nos clients.
+            </p>
+            <br />
+            <ul className="list-disc pl-4">
+              <li>La préparation du chantier</li>
+              <li>Le nettoyage ou le décapage de la façade</li>
+              <li>La réparation et le traitement des murs</li>
+              <li>La protection et/ou l’embellissement.</li>
+            </ul>
+          </>
         ),
       },
     ],
     cards: [],
   },
-  // Ajoutez d&apos;autres données au besoin
+
 };
