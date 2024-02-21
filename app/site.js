@@ -168,6 +168,10 @@ export const Pages = {
     title: "Peinture intérieure",
     description: "",
     photos: [
+      { url: "peinture-interieur-21-02-24-1.jpeg", alt: "" },
+      { url: "peinture-interieur-21-02-24-2.jpeg", alt: "" },
+      { url: "peinture-interieur-21-02-24-3.jpeg", alt: "" },
+      { url: "peinture-interieur-21-02-24-4.jpeg", alt: "" },
       { url: "chantier-01-1.jpeg", alt: "" },
       { url: "chantier-01-2.jpeg", alt: "" },
       { url: "chantier-01-3.jpeg", alt: "" },
