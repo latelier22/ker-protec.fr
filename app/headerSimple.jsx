@@ -25,9 +25,17 @@ const HeaderSimple = ({ photos, title }) => {
           </div>
           <div className="flex-col justify-between">
             {/* <h1 className="mb-6 text-gold-600  text-5xl font-bold"> */}
-            <h1 className="font-bold text-transparent mt-8 text-5xl bg-clip-text bg-gradient-to-br from-gold-800 via-gold-400 to-gold-800">
-              <br className="hidden md:block"/>
-              Peinture / Décoration intérieure / Ravalement
+            <h1 className="hidden sm:block font-bold text-transparent mt-8 text-5xl bg-clip-text bg-gradient-to-br from-gold-800 via-gold-400 to-gold-800">
+              <br className=""/>
+              Peinture - Décoration intérieure - Ravalement
+            </h1>
+             <h1 className="sm:hidden font-bold text-transparent mt-8 text-5xl bg-clip-text bg-gradient-to-br from-gold-800 via-gold-400 to-gold-800">
+              <br className=""/>
+              Peinture
+              <br className=""/>
+              Décoration intérieure
+              <br className=""/> Ravalement
+              
             </h1>
             <div className="flex flex-col  justify-around items-center">
               <h3 className="my-8 text-gold-200 text-3xl font-bold">
