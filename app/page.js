@@ -5,7 +5,10 @@ import HeaderSimple from "./headerSimple";
 import Footer from "./Footer";
 import Cards from "./Cards";
 import Section from "./Section";
-import {cards, sections} from "./site"
+import {cards, sections} from "./site";
+import MyLightBox from "./MyLightBox";
+import { Pages } from "./site";
+import Title from "./Title"
 
 const Home = () => {
   // Dynamic metadata for the home page
@@ -14,7 +17,7 @@ const Home = () => {
 
   // DÃ©clarer les photos dans un tableau d&apos;objets
   const photos = [];
-
+  const page = Pages["ravalement"];
   const backgroundColor = "bg-teal-500";
 
   return (
@@ -22,6 +25,12 @@ const Home = () => {
       <Navbar />
       <HeaderSimple photos={photos} title={pageTitle}/>
       {/* <Pictos /> */}
+
+{/* <ImagesBar photos={page.photos} /> */}
+<Title title="Dernières réalisations" />
+<MyLightBox photos={page.photos} nombre={4}/>
+
+      
       <Section section={sections[0]} />
 
 

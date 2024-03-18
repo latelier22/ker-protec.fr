@@ -431,6 +431,10 @@ export const Pages = {
     title: "Ravalements",
     description: "",
     photos: [
+      { url: "ravalement-1-8.jpeg", alt: "gallery" },
+      { url: "ravalement-1-9.jpeg", alt: "gallery" },
+      { url: "ravalement-1-10.jpeg", alt: "gallery" },
+      { url: "ravalement-1-11.jpeg", alt: "gallery" },
       { url: "ravalement-1-1.jpeg", alt: "gallery" },
       { url: "ravalement-1-2.jpeg", alt: "gallery" },
       { url: "ravalement-1-3.jpeg", alt: "gallery" },
