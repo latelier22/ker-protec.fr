@@ -9,16 +9,16 @@ const inter = Inter({ subsets: ['latin'] });
 const siteMetadata = site;
 
 export default function RootLayout({
-  children
+  children, pageTitle, pageDescription
 }) 
 {
   const siteTitle = siteMetadata.title;
   const siteDescription = siteMetadata.description;
 
-  const title = `${siteTitle}`;
-  const description = `${siteDescription}`;
-  // const title = `${siteTitle} | ${pageTitle || ''}`;
-  // const description = `${siteDescription} | ${pageDescription || ''}`;
+  // const title = `${siteTitle}`;
+  // const description = `${siteDescription}`;
+  const title = `${siteTitle} | ${pageTitle || ''}`;
+  const description = `${siteDescription} | ${pageDescription || ''}`;
 
   return (
     <html lang="en" className="dark">
