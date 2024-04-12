@@ -6,25 +6,28 @@ import { site } from './site';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const siteMetadata = site;
 
 export default function RootLayout({
-  children, pageTitle, pageDescription
-}) 
-{
-  const siteTitle = siteMetadata.title;
-  const siteDescription = siteMetadata.description;
+  children,
+  pageTitle,
+  pageDescription,
+  pageTags,
+  isHomePage // Ajoutez un paramètre pour indiquer si la page est la page d'accueil
+}) {
+  const siteTitle = site.title;
+  const siteDescription = site.description;
 
-  // const title = `${siteTitle}`;
-  // const description = `${siteDescription}`;
-  const title = `${siteTitle} | ${pageTitle || ''}`;
-  const description = `${siteDescription} | ${pageDescription || ''}`;
+  const description = `${pageDescription || ''} | ${siteDescription}`;
+  const title = `${pageTitle || ''} | ${siteTitle}`;
 
   return (
     <html lang="en" className="dark">
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {pageTags && (
+          <meta name="keywords" content={pageTags.split(',').map(tag => tag.trim()).join(',')} />
+        )}
         <title>{title}</title>
         <meta name="description" content={description} />
         {/* Add other meta tags if needed */}

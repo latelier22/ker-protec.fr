@@ -5,23 +5,23 @@ import HeaderSimple from "./headerSimple";
 import Footer from "./Footer";
 import Cards from "./Cards";
 import Section from "./Section";
-import {cards, sections} from "./site"
+import {cards, sections, Pages} from "./site"
 
 const Home = () => {
   // Dynamic metadata for the home page
-  const pageTitle = "Accueil";
-  const pageDescription = "Bienvenue sur le site de KER PROTEC";
+  const page = Pages["accueil"];
+  const pageTitle = page.title
+  const pageDescription = page.description;
 
-  // DÃ©clarer les photos dans un tableau d&apos;objets
   const photos = [];
 
   const backgroundColor = "bg-teal-500";
 
   return (
-    <RootLayout pageTitle={pageTitle} pageDescription={pageDescription}>
+    <RootLayout pageTitle={pageTitle} pageDescription={pageDescription} pageTags={page.tags}>
       <Navbar />
-      <HeaderSimple photos={photos} title={pageTitle}/>
-      {/* <Pictos /> */}
+      <HeaderSimple photos={photos} title={"Page d'accueil"}/>
+      
       <Section section={sections[0]} />
 
 
@@ -31,11 +31,6 @@ const Home = () => {
 
       <Section section={sections[1]} />
       
-      {/* <div className="bg-white dark:bg-neutral-900 dark:text-gold-500">
-        <Cards cards={cards2} buttonColor={backgroundColor} />
-      </div> */}
-
-
       <Footer />
     </RootLayout>
   );

@@ -23,7 +23,7 @@ const MyPage = ({ params }) => {
     );
   }
   return (
-    <RootLayout pageTitle={page.title} pageDescription={page.description}>
+    <RootLayout pageTitle={page.title} pageDescription={page.description} pageTags={page.tags}>
 
       <Navbar />
 
