@@ -4,7 +4,7 @@
 const URL = "https://www.ker-protec.fr"
 
 // Vos routes statiques
-const SITE_ROUTES = ["/", "/contact", "/ravalement", "/peinture-decoration","/peinture-nuancier", "/nettoyage", "/realisations"]
+const SITE_ROUTES = ["", "/contact", "/ravalement", "/peinture-decoration","/peinture-nuancier", "/nettoyage", "/realisations"]
 
 
 export default async function sitemap() {
