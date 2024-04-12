@@ -1,12 +1,20 @@
 import React from "react";
+
 import RootLayout from "../app/layout";
+import {cards, sections, Pages, site} from "./site"
+
 import Navbar from "./NavBar";
 import HeaderSimple from "./headerSimple";
 import Footer from "./Footer";
+
 import Cards from "./Cards";
 import Section from "./Section";
-import {cards, sections, Pages, site} from "./site"
+import Title from "./Title"
+import MyLightBox from "./MyLightBox";
+
+
 import getPages from "./component/getPages"
+
 
 export async function generateMetadata({ params }, parent) {
   const pageSlug = "accueil"; // Pour tester
@@ -56,6 +64,10 @@ const Home = () => {
       <Navbar />
       <HeaderSimple photos={photos} title={"Page d'accueil"}/>
       
+      <Title title="Dernières réalisations" />
+      <MyLightBox photos={page.photos} nombre={4}/>
+
+
       <Section section={sections[0]} />
 
 
