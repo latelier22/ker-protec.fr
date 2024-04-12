@@ -8,31 +8,31 @@ import Section from "./Section";
 import {cards, sections, Pages, site} from "./site"
 import getPages from "./component/getPages"
 
-export async function generateMetadata() {
-  const pageSlug = "accueil"; // Pour tester
-  let page = Pages[pageSlug]; // Récupérer la page initiale
-  const apiPage = await getPages(); // Récupérer les données de la page depuis l'API
+// export async function generateMetadata() {
+//   const pageSlug = "accueil"; // Pour tester
+//   let page = Pages[pageSlug]; // Récupérer la page initiale
+//   const apiPage = await getPages(); // Récupérer les données de la page depuis l'API
   
-  // Vérifier si les données de la page API existent et ne sont pas vides
-  if (apiPage && apiPage[pageSlug]) {
-    const apiPageData = apiPage[pageSlug]; // Données de la page depuis l'API
+//   // Vérifier si les données de la page API existent et ne sont pas vides
+//   if (apiPage && apiPage[pageSlug]) {
+//     const apiPageData = apiPage[pageSlug]; // Données de la page depuis l'API
     
-    // Parcourir chaque clé de la page initiale
-    for (const key in page) {
-      // Vérifier si la clé existe dans les données de la page API et si sa valeur n'est pas vide
-      if (apiPageData[key] && apiPageData[key].trim() !== "") {
-        // Remplacer la valeur de la page initiale par la valeur de la page API
-        page[key] = apiPageData[key];
-      }
-    }
-  }
+//     // Parcourir chaque clé de la page initiale
+//     for (const key in page) {
+//       // Vérifier si la clé existe dans les données de la page API et si sa valeur n'est pas vide
+//       if (apiPageData[key] && apiPageData[key].trim() !== "") {
+//         // Remplacer la valeur de la page initiale par la valeur de la page API
+//         page[key] = apiPageData[key];
+//       }
+//     }
+//   }
   
-  return {
-    title: `${page.title} | ${site.title}`, // Retourner le titre mis à jour
-    keywords : page.tags ? page.tags.split(',').map(tag => tag.trim()) : [] ,
-    description : page.description ? page.description : ""
-  };
-}
+//   return {
+//     title: `${page.title} | ${site.title}`, // Retourner le titre mis à jour
+//     keywords : page.tags ? page.tags.split(',').map(tag => tag.trim()) : [] ,
+//     description : page.description ? page.description : ""
+//   };
+// }
 
 const Home = () => {
   // Dynamic metadata for the home page
