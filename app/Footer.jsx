@@ -1,17 +1,24 @@
-"use client";
-import { useEffect } from "react";
-import { menuItems, site } from "./site";
+import { menuItems } from "./site";
+import {site} from "./site"
 import Title from "./TitleLine";
 
-const Footer = () => {
-  useEffect(() => {
-    const init = async () => {
-      const { Tooltip, initTE } = await import("tw-elements");
-      initTE({ Tooltip });
-    };
-    init();
-  }, []);
+import getSite from "./component/getSIte"
 
+async function Footer() {
+  
+
+  const apiSite = await getSite();
+  // Vérifier si apiSite existe et n'est pas vide
+  if (apiSite && Object.keys(apiSite).length > 0) {
+    // Parcourir chaque clé de apiSite
+    for (const key in apiSite) {
+      // Vérifier si la clé existe dans site et si la valeur de apiSite[key] n'est pas nulle
+      if (site.hasOwnProperty(key) && apiSite[key]) {
+        // Mettre à jour la valeur de site avec la valeur de apiSite
+        site[key] = apiSite[key];
+      }
+    }
+  }
 
   // Définir un tableau d'objets pour les photos du footer
   const photoFooter = [

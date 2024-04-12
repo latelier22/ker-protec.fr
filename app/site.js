@@ -1,4 +1,4 @@
-export const site = {
+export let site = {
   title: "KER PROTEC",
   description: "KER PROTEC - Olivier GUREME- 07 71 84 91 07",
   societe: "KER PROTEC",
@@ -103,12 +103,7 @@ export const sections = [
 ];
 
 export const listesActions = [
-  {
-    title: "ENTRETIEN",
-    subTitle: "",
-    photo: { url: "Rectangle_8.png", alt: "" },
-    actions: [""],
-  },
+  
   {
     title: "RAVALEMENT",
     subTitle: "",
@@ -143,28 +138,7 @@ export const listesActions = [
 ];
 
 export const Pages = {
-  entretien: {
-    title: "Entretien",
-    tags : '<meta name="keywords" content="Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative"></meta>',
-    description: "",
-    photos: [
-      { url: "entretien-1.png", alt: "gallery" },
-      { url: "entretien-2.png", alt: "gallery" },
-      { url: "entretien-3.png", alt: "gallery" },
-      { url: "entretien-4.png", alt: "gallery" },
-    ],
-    sections: [
-      {
-        title: "NOS SAVOIR FAIRE :",
-        body: (
-          <ul className="list-disc text-gold-400 pl-4">
-            <li></li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
+  
   "peinture-decoration": {
     title: "Peinture intérieure",
     tags : "Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative",

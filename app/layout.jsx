@@ -6,7 +6,6 @@ import { site } from './site';
 
 const inter = Inter({ subsets: ['latin'] });
 
-
 export default function RootLayout({
   children,
   pageTitle,
@@ -14,11 +13,7 @@ export default function RootLayout({
   pageTags,
   isHomePage // Ajoutez un paramètre pour indiquer si la page est la page d'accueil
 }) {
-  const siteTitle = site.title;
-  const siteDescription = site.description;
-
-  const description = `${pageDescription || ''} | ${siteDescription}`;
-  const title = `${pageTitle || ''} | ${siteTitle}`;
+  
 
   return (
     <html lang="en" className="dark">
@@ -28,8 +23,7 @@ export default function RootLayout({
         {pageTags && (
           <meta name="keywords" content={pageTags.split(',').map(tag => tag.trim()).join(',')} />
         )}
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <meta name="description" content={pageDescription} />
         {/* Add other meta tags if needed */}
       </head>
       <body className={`${inter.className} bg-neutral-900`}>
