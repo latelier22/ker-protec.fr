@@ -8,7 +8,7 @@ import Section from "./Section";
 import {cards, sections, Pages, site} from "./site"
 import getPages from "./component/getPages"
 
-export async function generateMetadata({ params }, parent) {
+export async function generateMetadata() {
   const pageSlug = "accueil"; // Pour tester
   let page = Pages[pageSlug]; // Récupérer la page initiale
   const apiPage = await getPages(); // Récupérer les données de la page depuis l'API
@@ -33,13 +33,6 @@ export async function generateMetadata({ params }, parent) {
     description : page.description ? page.description : ""
   };
 }
-
-
-// export const metadata =
-// {
-//   title: Pages["accueil"].title
-// }
-
 
 const Home = () => {
   // Dynamic metadata for the home page
