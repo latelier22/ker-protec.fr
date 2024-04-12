@@ -29,7 +29,8 @@ export async function generateMetadata({ params }, parent) {
   
   return {
     title: `${page.title} | ${site.title}`, // Retourner le titre mis à jour
-    keywords : page.tags ? page.tags.split(',').map(tag => tag.trim()) : [] 
+    keywords : page.tags ? page.tags.split(',').map(tag => tag.trim()) : [] ,
+    description : page.description ? page.description : ""
   };
 }
 

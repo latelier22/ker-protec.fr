@@ -20,11 +20,6 @@ export default function RootLayout({
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {pageTags && (
-          <meta name="keywords" content={pageTags.split(',').map(tag => tag.trim()).join(',')} />
-        )}
-        <meta name="description" content={pageDescription} />
-        {/* Add other meta tags if needed */}
       </head>
       <body className={`${inter.className} bg-neutral-900`}>
         {children}
