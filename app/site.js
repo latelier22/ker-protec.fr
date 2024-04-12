@@ -1,4 +1,4 @@
-export const site = {
+export let site = {
   title: "KER PROTEC",
   description: "KER PROTEC - Olivier GUREME- 07 71 84 91 07",
   societe: "KER PROTEC",
@@ -103,12 +103,7 @@ export const sections = [
 ];
 
 export const listesActions = [
-  {
-    title: "ENTRETIEN",
-    subTitle: "",
-    photo: { url: "Rectangle_8.png", alt: "" },
-    actions: [""],
-  },
+  
   {
     title: "RAVALEMENT",
     subTitle: "",
@@ -143,30 +138,11 @@ export const listesActions = [
 ];
 
 export const Pages = {
-  entretien: {
-    title: "Entretien",
-    description: "",
-    photos: [
-      { url: "entretien-1.png", alt: "gallery" },
-      { url: "entretien-2.png", alt: "gallery" },
-      { url: "entretien-3.png", alt: "gallery" },
-      { url: "entretien-4.png", alt: "gallery" },
-    ],
-    sections: [
-      {
-        title: "NOS SAVOIR FAIRE :",
-        body: (
-          <ul className="list-disc text-gold-400 pl-4">
-            <li></li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
+  
   "peinture-decoration": {
     title: "Peinture intérieure",
-    description: "",
+    tags : "Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative",
+    description: "À la recherche de professionnels de la peinture intérieure et de la rénovation ? Découvrez nos services de qualité à Vannes et ses environs. Experts en travaux de peinture, rénovation intérieure, revêtements muraux et décoration. Contactez-nous pour une peinture décorative sur mesure.",
     photos: [
       { url: "peinture-interieur-21-02-24-1.jpeg", alt: "" },
       { url: "peinture-interieur-21-02-24-2.jpeg", alt: "" },
@@ -252,6 +228,7 @@ export const Pages = {
 
   "peinture-nuancier": {
     title: "Peintures & nuanciers",
+    tags : '<meta name="keywords" content="Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative"></meta>',
     description: "",
     photos: [
       { url: "peinture-nuancier-1.png", alt: "peinture et nuancier" },
@@ -297,8 +274,10 @@ export const Pages = {
     cards: [],
   },
   nettoyage: {
-    title: "NETTOYAGE",
-    description: "",
+
+    title: "Nettoyage de façade, toiture et extérieur - Traitement anti-mousse et hydrofuge",
+    tags : "Nettoyage de façade, Nettoyage de toiture, Nettoyage extérieur, Traitement anti-mousse, Traitement hydrofuge",
+    description: "Découvrez nos services de nettoyage de façade, toiture et extérieur, incluant le traitement anti-mousse et hydrofuge. Profitez d'une propreté impeccable et d'une protection durable. Contactez-nous dès maintenant pour en savoir plus.",
     photos: [
       { url: "nettoyage-toiture-1-1.jpeg", alt: "gallery" },
       { url: "nettoyage-toiture-1-2.jpeg", alt: "gallery" },
@@ -382,6 +361,7 @@ export const Pages = {
   },
   realisations: {
     title: "Nos réalisations",
+    tags : '<meta name="keywords" content="Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative"></meta>',
     description: "",
     photos: [
       { url: "chantier-01-1.jpeg", alt: "" },
@@ -429,7 +409,8 @@ export const Pages = {
   },
   ravalement: {
     title: "Ravalements",
-    description: "",
+    tags : "Ravalement de façade, Peinture extérieure, Réparation de façade, Nettoyage de façade, Protection de façade",
+    description: "Besoin de ravalement de façade ou de peinture extérieure ? Nos experts offrent des services complets de réparation, nettoyage et protection de façade à Vannes et ses environs. Contactez-nous dès maintenant pour une façade impeccable et durable.",
     photos: [
       { url: "ravalement-1-1.jpeg", alt: "gallery" },
       { url: "ravalement-1-2.jpeg", alt: "gallery" },
@@ -498,6 +479,18 @@ export const Pages = {
           </>
         ),
       },
+    ],
+    cards: [],
+  },
+  accueil: {
+    title: "Peinture intérieure, décoration, ravalement à Vannes, Theix et ses alentours,  Morbihan - Ker Protec",
+    tags : "Peinture intérieure, Travaux de peinture, Rénovation intérieure, Revêtements muraux, Décoration intérieure, Peinture décorative, Ravalement de façade, Peinture extérieure, Réparation de façade, Nettoyage de façade, Protection de façade, Nettoyage de toiture, Nettoyage extérieur, Traitement anti-mousse, Traitement hydrofuge Vannes, Auray, Lorient, Pontivy, Quiberon, Morbihan",
+    description: "Ker Protec propose une gamme complète de services pour la rénovation et la décoration de votre intérieur, ainsi que pour l'entretien et la protection de vos façades et toitures à Vannes et ses environs, y compris Auray, Lorient, Pontivy, Quiberon et d'autres villes du Morbihan. Nos experts réalisent des travaux de peinture intérieure, revêtements muraux, ravalement de façade, peinture extérieure, nettoyage de façade, nettoyage de toiture et traitement anti-mousse. Contactez-nous pour des solutions sur mesure et une qualité professionnelle."
+    ,
+    photos: [
+    ],
+    sections: [
+
     ],
     cards: [],
   },
