@@ -36,6 +36,6 @@ export default async function ApiAlbums(
     nextPageToken2 = data2.nextPageToken;
   } while (nextPageToken2);
 
-  console.log(albums,sharedAlbums)
+  // console.log(albums,sharedAlbums)
   res.status(200).json(albums);
 }

@@ -60,7 +60,7 @@ export const getGoogleSharedAlbums = async (
   );
   
   const response = result.json()
-  console.log("response",response)
+  // console.log("response",response)
 
   return response;
 };
