@@ -55,6 +55,8 @@ const Home = () => {
   const pageTitle = page.title
   const pageDescription = page.description;
 
+  const pageRealisations = Pages["realisations"]
+
   const photos = [];
 
   const backgroundColor = "bg-teal-500";
@@ -65,7 +67,7 @@ const Home = () => {
       <HeaderSimple photos={photos} title={"Page d'accueil"}/>
       
       <Title title="Dernières réalisations" />
-      <MyLightBox photos={page.photos} nombre={4}/>
+      <MyLightBox photos={pageRealisations.photos.slice(0,4)} />
 
 
       <Section section={sections[0]} />
